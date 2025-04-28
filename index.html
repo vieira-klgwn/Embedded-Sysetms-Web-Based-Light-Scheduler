@@ -1,0 +1,24 @@
+<xaiArtifact artifact_id="69a327d0-db49-4178-a96a-e3813cbbfcdb" artifact_version_id="2470ce6a-d872-4831-ba6a-df04c1fa8cd3" title="index.html" contentType="text/html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Light Scheduler</h1>
+        <div class="scheduler">
+            <label for="on-time">Light ON Time:</label>
+            <input type="time" id="on-time" required>
+            <label for="off-time">Light OFF Time:</label>
+            <input type="time" id="off-time" required>
+            <button onclick="submitSchedule()">Submit Schedule</button>
+        </div>
+        <p id="status">Status: Waiting for schedule...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
